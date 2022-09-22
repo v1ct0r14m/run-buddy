@@ -36,7 +36,39 @@
         </header>
     <!-- HERO/JUMBOTRON -->
         <section>
+            <div>
+                <h3>get started today</h3>
+                <p>fill out this form and one of our trainers will schedule a consult</p>
+                <!-- ADD FORM ELEMENT -->
+                <form>
+                    <label for="name">enter full name:</label>
+                    <input type="text" placeholder="your name" name="name" id="name" />
+                    <label for="email">enter email address:</label>
+                    <input type="email" placeholder="your email" name="email" id="email" />
+                    <label for="phone">enter a phone number:</label>
+                    <input type="tel" placeholder="phone number" name="phone" id="phone" />
+                    <p>
+                        have you ever worked with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                        <label for="trainer-yes">yes</label>
+                        <input type="radio" name="trainer-comfirm" id="trainer-no" />
+                        <label for="trainer-no">no</label>
+                    </p>
+                    <p>
+                        i acknowledge that i am at least 18 years of age:
+                        <input type="checkbox" name="age-confirm" id="18-yes" />
+                        <label for="18-yes">yes</label>
+                        <input type="checkbox" name="age-comfirm" id="18-no" />
+                        <label for="18-no">no</label>
+                    </p>
+                    <button type="submit">
+                        get running
+                    </button>
+                </form>
+            </div>
         </section>
+        <!-- END OF HERO -->
+            
     <!-- 'WHAT WE DO' SECTION -->
         <section>
             <h2>WHAT WE DO</h2>
@@ -55,7 +87,11 @@
         </section>
     <!-- FOOTER -->  
     <footer>
-        <h2>❤️ Made with love by Run Buddy</h2>
+        <h2>❤️ made with love by run buddy</h2>
+        <div>
+            <a href="#">read our privacy policy</a><br />
+            &copy; 2019 Run Buddy, Inc.
+        </div>
     </footer>
     </body>
 </html>
