@@ -1,7 +1,7 @@
 # run-buddy
 run-buddy site for module follow-along
 
-# Run Buddy
+# Run Buddy Inc.
 
 ## Purpose
 A website that offers fitness training services.
