@@ -38,7 +38,7 @@
     <!-- HERO/JUMBOTRON -->
         <section class="hero">
             <div class="hero-cta">
-                <h2>Start Building Habits.</h2>
+                <h2>START BUILDING HABITS.</h2>
                 <p>
                   seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
                   messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund
@@ -59,18 +59,21 @@
                     <label for="phone">enter a phone number:</label>
                     <input type="tel" placeholder="phone number" name="phone" id="phone" class="form-input">
                     <p>
-                        have you ever worked with a trainer before?
-                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                        <label for="trainer-yes">yes</label>
-                        <input type="radio" name="trainer-comfirm" id="trainer-no" />
-                        <label for="trainer-no">no</label>
+                        have you worked with a trainer before?
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                            <label for="trainer-yes">yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-no" />
+                            <label for="trainer-no"></label>no
+                        </span>
                     </p>
                     <p>
-                        i acknowledge that i am at least 18 years of age:
-                        <input type="checkbox" name="age-confirm" id="18-yes" />
-                        <label for="18-yes">yes</label>
-                        <input type="checkbox" name="age-comfirm" id="18-no" />
-                        <label for="18-no">no</label>
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="age-confirm" id="checkbox" />
+                            <label for="checkbox">i acknowledge that i am at least 18 years of age</label>
+                        </span>
                     </p>
                     <button type="submit">
                         get running!
